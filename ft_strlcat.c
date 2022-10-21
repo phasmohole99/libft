@@ -6,12 +6,11 @@
 /*   By: mrital- <mrital-@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 00:19:18 by mrital-           #+#    #+#             */
-/*   Updated: 2022/10/12 03:21:10 by mrital-          ###   ########.fr       */
+/*   Updated: 2022/10/16 19:07:09 by mrital-          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 //return  dst + src
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
@@ -41,11 +40,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	}
 	return (re);
 }
-/* int main ()
- {
-     char c[] = "mhhh";
-     char a[] = "1337";
-
-     printf ("%zu",ft_strlcat(c,a,7));
-    return (0);
- }*/

@@ -6,7 +6,7 @@
 /*   By: mrital- <mrital-@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 00:21:47 by mrital-           #+#    #+#             */
-/*   Updated: 2022/10/08 00:31:17 by mrital-          ###   ########.fr       */
+/*   Updated: 2022/10/20 07:40:28 by mrital-          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,15 +21,11 @@ char	*ft_strrchr(const char *s2, int a)
 	while (i > 0)
 	{
 		if (s2[i] == (char)a)
-		{
 			return ((char *)s2 + i);
-		}
 		i--;
 	}
 	if (s2[i] == (char)a)
-	{
 		return ((char *)s2 + i);
-	}
 	return (0);
 }
 /*int main ()

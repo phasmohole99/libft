@@ -6,7 +6,7 @@
 /*   By: mrital- <mrital-@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 00:13:22 by mrital-           #+#    #+#             */
-/*   Updated: 2022/10/11 00:49:17 by mrital-          ###   ########.fr       */
+/*   Updated: 2022/10/18 12:48:39 by mrital-          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,7 @@ void	*ft_memmove(void *dst, const void *src, size_t i)
 	if (dst > src)
 	{
 		while (i--)
-		{
 			*(char *)(dst + i) = *(char *)(src + i);
-		}
 		return (dst);
 	}
 	else

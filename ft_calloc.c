@@ -6,7 +6,7 @@
 /*   By: mrital- <mrital-@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 00:09:11 by mrital-           #+#    #+#             */
-/*   Updated: 2022/10/08 00:28:07 by mrital-          ###   ########.fr       */
+/*   Updated: 2022/10/17 23:02:11 by mrital-          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,7 @@ void	*ft_calloc(size_t count, size_t size)
 
 	ptr = malloc(count * size);
 	if (ptr == NULL)
-	{
 		return (0);
-	}
 	ft_bzero(ptr, size * count);
 	return (ptr);
 }

@@ -6,7 +6,7 @@
 /*   By: mrital- <mrital-@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 20:02:31 by mrital-           #+#    #+#             */
-/*   Updated: 2022/10/12 02:54:38 by mrital-          ###   ########.fr       */
+/*   Updated: 2022/10/21 16:02:36 by mrital-          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		x = 0;
 		while (s2 && x < ft_strlen(s2))
 		{
-			new[i] = s2[x];
-			x++;
-			i++;
+			new[i++] = s2[x++];
 		}
 		new[i] = '\0';
 		return (new);
